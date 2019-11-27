@@ -19,6 +19,8 @@ module.exports = {
   },
   rules: {
     // REACT
+    'react/prop-types': 0,
+    'react/jsx-props-no-spreading': 0,
     'react/jsx-one-expression-per-line': 0,
     'react/prefer-stateless-function': 0,
     'react/jsx-filename-extension': [
@@ -40,6 +42,7 @@ module.exports = {
     // IMPORT
     'import/no-unresolved': 0,
     'import/prefer-default-export': 0,
+    'import/no-extraneous-dependencies': 0,
 
     // REACT-HOOKS
     'react-hooks/rules-of-hooks': 'error',
