@@ -1,9 +1,9 @@
 {
   "private": true,
   "version": "0.1.0",
-  "name": "referral-roulette",
-  "description": "Referral roulette!",
-  "repository": "https://github.com/byurhanbeyzat/referral-roulette.git",
+  "name": "referral-links",
+  "description": "Referral links!",
+  "repository": "https://github.com/byurhanbeyzat/referral-links.git",
   "author": "Byurhan Beyzat <byurhanbeyzat@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -18,8 +18,7 @@
     "node-sass": "^4.13.0",
     "prop-types": "^15.7.2",
     "react": "16.12.0",
-    "react-dom": "16.12.0",
-    "styled-components": "^4.4.1"
+    "react-dom": "16.12.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
