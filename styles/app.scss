@@ -1,5 +1,8 @@
 /* Import 'Inter' font family */
 @import url('https://rsms.me/inter/inter.css');
 
+@import './vars.scss';
 @import './reset.scss';
 @import './common.scss';
+
+@import './button.scss'

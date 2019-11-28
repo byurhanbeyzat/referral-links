@@ -1,0 +1,19 @@
+@import '../../styles/vars.scss';
+
+.form {
+
+  .input {
+    width: $form-width-max;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    padding: 22px 18px;
+    background: #ffffff;
+    color: $input-text-color;
+    box-shadow: 0 6px 10px 0 $light-shadow;
+
+    @media screen and (max-width: $form-width-max) {
+      width: $form-width-min;
+    }
+  }
+}

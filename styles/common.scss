@@ -1,5 +1,11 @@
+body {
+	color: $body-text-color;
+	background-color: $body-bg-color;
+}
+
 .container {
 	width: 100%;
-	max-width: 1070px;
+	max-width: 968px;
+	padding: 0 18px;
 	margin: 0 auto;
 }

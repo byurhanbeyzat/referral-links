@@ -1,0 +1,17 @@
+@import '../../styles/vars.scss';
+
+.form-container {
+  width: $form-width-max;
+  margin: 0 auto;
+
+  @media screen and (max-width: $form-width-max) {
+    width: $form-width-min;
+  }
+
+  .form-headings {
+    margin: 12px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
