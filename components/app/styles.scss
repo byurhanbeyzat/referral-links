@@ -2,14 +2,15 @@
 
 .form-container {
   width: $form-width-max;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 
   @media screen and (max-width: $form-width-max) {
     width: $form-width-min;
   }
 
   .form-headings {
-    margin: 12px auto;
+    margin-bottom: 24px;
     display: flex;
     align-items: center;
     justify-content: space-around;

@@ -4,13 +4,16 @@ $form-width-max: 450px;
 
 
 // COLORS
+$color-black: #000000;
+$color-white: #FFFFFF;
+
 $body-bg-color: #f5f6fa;
 $body-text-color: #9c9c9c;
 
-$input-bg-color: #ffffff;
+$input-bg-color: $color-white;
 $input-text-color: #a3a3a3;
 
-$button-bg-color: #7f8ff4;
-$button-text-color: #ffffff;
+$button-bg-color: #2258eb;
+$button-text-color: $color-white;
 
 $light-shadow: rgba(0, 0, 0 , 0.1);

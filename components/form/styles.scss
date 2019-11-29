@@ -2,6 +2,13 @@
 
 .form {
 
+  &-fields {
+    
+    input:not(:last-child) {
+      margin-bottom: 20px;;
+    }
+  }
+
   .input {
     width: $form-width-max;
     border: 0;
