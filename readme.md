@@ -1,3 +1,1 @@
-<h1 align="center">
-  Referral Roulette
-</h1>
+# Referral Links

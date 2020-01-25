@@ -1,9 +1,8 @@
 import React from 'react'
 import App from 'next/app'
+import Head from 'next/head'
 import Router from 'next/router'
 import NProgress from 'nprogress'
-
-import Layout from '../components/layout'
 
 import '../styles/app.scss'
 
@@ -16,9 +15,15 @@ export default class MyApp extends App {
     const { Component, pageProps } = this.props
 
     return (
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <>
+        <Head>
+          <title>Referral Roulette</title>
+          <meta name="title" content="Referral Roulette" />
+        </Head>
+        <main role="main" style={{ paddingTop: '10rem' }}>
+          <Component {...pageProps} />
+        </main>
+      </>
     )
   }
 }
