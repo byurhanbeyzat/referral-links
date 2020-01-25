@@ -1,0 +1,9 @@
+type ReferralLink {
+  url: String!
+  siteName: String!
+}
+
+type Query {
+  link(siteName: String!): ReferralLink
+  links: [ReferralLink]
+}

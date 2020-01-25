@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "build": {
+    "env": {
+      "DB_SECRET_KEY": "@db_secret_key",
+      "GRAPHQL_ENDPOINT": "@graphql_endpoint"
+    }
+  },
+  "env": {
+    "DB_SECRET_KEY": "@db_secret_key",
+    "GRAPHQL_ENDPOINT": "@graphql_endpoint"
+  },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/next"
+    },
+    {
+      "src": "public/*",
+      "use": "@now/static"
+    }
+  ]
+}
