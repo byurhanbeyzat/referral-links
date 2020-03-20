@@ -1,10 +1,20 @@
 import React from 'react'
-import { App } from '../components/app'
 
-const Home = () => (
-  <div className="container">
-    <App />
-  </div>
-)
+import { SubmitForm, GetForm } from '../components/form'
 
+const Home = () => {
+  return (
+    <div className="container">
+      <div className="form-container">
+        <SubmitForm />
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br />
+        <GetForm />
+      </div>
+    </div>
+  )
+}
 export default Home

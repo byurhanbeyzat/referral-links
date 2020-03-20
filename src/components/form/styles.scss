@@ -3,10 +3,7 @@
 .form {
 
   &-fields {
-    
-    input:not(:last-child) {
-      margin-bottom: 20px;;
-    }
+    display: flex;
   }
 
   .input {
@@ -23,4 +20,5 @@
       width: $form-width-min;
     }
   }
+
 }

@@ -3,9 +3,35 @@ body {
 	background-color: $body-bg-color;
 }
 
+.icon {
+  display: inline-block;
+  width: 1.3em;
+  height: 1.3em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
 .container {
 	width: 100%;
 	max-width: 968px;
 	padding: 0 18px;
 	margin: 0 auto;
+}
+
+.form-container {
+  width: $form-width-max;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (max-width: $form-width-max) {
+    width: $form-width-min;
+  }
+
+  .form-headings {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
